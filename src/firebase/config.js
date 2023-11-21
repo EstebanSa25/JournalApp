@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore/lite';
 // TODO: Add SDKs for Firebase products that you want to use
@@ -7,15 +7,17 @@ import { getFirestore } from 'firebase/firestore/lite';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9qM8LKYti4TZus0g00ISzMjudet-H2vg",
-  authDomain: "react-cursos-4368a.firebaseapp.com",
-  projectId: "react-cursos-4368a",
-  storageBucket: "react-cursos-4368a.appspot.com",
-  messagingSenderId: "35683178704",
-  appId: "1:35683178704:web:2cab2003319bbac2eba6d5"
+    apiKey: "AIzaSyCmCATfpSAiNKzZzzVOk-rtls12m6XeL9U",
+    authDomain: "react-cursos-ce5a5.firebaseapp.com",
+    projectId: "react-cursos-ce5a5",
+    storageBucket: "react-cursos-ce5a5.appspot.com",
+    messagingSenderId: "154834198734",
+    appId: "1:154834198734:web:c4bd8cc8276fcbe0edf09f"
 };
 
 // Initialize Firebase
-export const FirebaseApp  = initializeApp(firebaseConfig);
-export const FirebaseAuth = getAuth( FirebaseApp );
-export const FirebaseDB   = getFirestore( FirebaseApp );
+export const FirebaseApp = initializeApp(firebaseConfig);
+
+export const FirebaseAuth = getAuth(FirebaseApp);
+
+export const FirebaseDB = getFirestore(FirebaseApp);
